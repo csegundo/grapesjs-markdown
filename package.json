@@ -1,0 +1,23 @@
+{
+  "name": "grapesjs-markdown",
+  "version": "1.0.0",
+  "description": "Grapesjs Markdown",
+  "main": "dist/grapesjs-markdown.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csegundo/grapesjs-markdown.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^2.0.0"
+  },
+  "license": "MIT"
+}
