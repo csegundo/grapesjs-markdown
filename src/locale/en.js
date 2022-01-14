@@ -1,5 +1,16 @@
 export default {
     'grapesjs-markdown': {
-        // 'key': 'value',
+        category : 'Markdown',
+        classPrefix : 'gjs-md-',
+        components : {
+            names : {
+                heading : 'Heading'
+            }
+        },
+        commands : {
+            names : {
+                export : 'gjs-md-export'
+            }
+        }
     },
 };
