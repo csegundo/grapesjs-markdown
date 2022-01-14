@@ -1,4 +1,4 @@
-# Grapesjs Markdown
+# GrapesJS Markdown
 
 [DEMO](##)
 > **Provide a live demo of your plugin**
@@ -17,11 +17,11 @@ To help you in this process here below you will find the necessary HTML/CSS/JS, 
 ### JS
 ```js
 const editor = grapesjs.init({
-	container: '#gjs',
-  height: '100%',
-  fromElement: true,
-  storageManager: false,
-  plugins: ['grapesjs-markdown'],
+    container: '#gjs',
+    height: '100%',
+    fromElement: true,
+    storageManager: false,
+    plugins: ['grapesjs-markdown'],
 });
 ```
 
